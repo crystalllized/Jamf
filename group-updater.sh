@@ -37,7 +37,7 @@ do
 			echo "The group On Current $shortname Version has been updated." >> $log
 		fi
 	else
-		echo "No group update needed for $shortname" >> $log
+		echo "No group exists for $shortname" >> $log
 	fi
 done 
 
